@@ -33,6 +33,7 @@
         android:layout_alignLeft="@+id/EditText01"
         android:layout_below="@+id/imageView1"
         android:layout_marginTop="14dp"
+        
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName" >
@@ -46,6 +47,7 @@
         android:layout_height="30dp"
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText2"
+        
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:ems="10"

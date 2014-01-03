@@ -9,16 +9,23 @@ import android.widget.Button;
 
 public class SmartBills extends Activity {
 
-	Button button;
-
+	Button signup;
+	Button login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_smart_bills);
-    	button = (Button) findViewById(R.id.button1);
-    	button.setOnClickListener (new View.OnClickListener() {
+    	signup = (Button) findViewById(R.id.button1);
+    	signup.setOnClickListener (new View.OnClickListener() {
     	    public void onClick(View v) {
     	    	setContentView(R.layout.signup);
+    	    }
+    	});
+    	
+    	login = (Button) findViewById(R.id.button2);
+    	login.setOnClickListener (new View.OnClickListener() {
+    	    public void onClick(View v) {
+    	    	setContentView(R.layout.test);
     	    }
     	});
     }
